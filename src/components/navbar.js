@@ -16,6 +16,7 @@ const Navbar = (props) => {
         setToggle(!current);
     }
 
+	// can add path directly to here example about page 
     const navigation = [
         {id: 1, name: 'Article', href: '#', current: true},
         {id: 2, name: 'Favorites', href: '#', current: false}

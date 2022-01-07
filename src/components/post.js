@@ -12,6 +12,7 @@ const url = 'https://jsonplaceholder.typicode.com/posts';
 // .then(res => res.json())
 // .then(data => console.log(data))
 
+// Trying to make price pill background change according to the current position
 const getBackgroundColor = (n) => {
     const even = (a) => {
         return Math.abs(a % 2 == 1)
@@ -28,6 +29,7 @@ const getBackgroundColor = (n) => {
 const Post = (props) => {
     const post = props.data;
     
+    // handle Favorites and updating if is favorite or not boolean.
     const handleFavorites = (d, e) => {
         if(d.isFavorite) {
             console.log(true)
@@ -42,6 +44,7 @@ const Post = (props) => {
         }
     }
 
+    // initial data to populate before getting into database.
     const data = [
         {id: 1, title: 'Keeping the dream alive by traveling the world', 
         text: 'Integrate the latest technologies with an innovative platform', 
@@ -66,6 +69,7 @@ const Post = (props) => {
     const searchData = props.search;
     return (
         <div className="postContainer">
+            {/* Filter values by favorites post */}
             {post.filter((val) => {
                 if(searchData === '') {
                     return post

@@ -11,26 +11,29 @@ const ModalLogin = (props) => {
     const [password, setPassword] = useState('');
     const [title, setTitle] = useState('Sign In')
 
+
     const changeToAC = (e) => {
         e.preventDefault();
         setTitle('Sign Up');
     }
 
+    // getting user email address information
     const handleChangeMail = (e) => {
         const name = e.target.name;
         const value = e.target.value;
         setUserMail(value)
     }
 
+    // getting user password 
     const handlePassword = (e) => {
         const name = e.target.name;
         const value = e.target.value;
         setPassword(value);
     }
 
+    // Submit handle login, we get user mail and password input
+    // and pass it to login function
     const handleSubmit = (e) => {
-        // e.preventDefault();
-        // props.setFalse(false);
         props.login(mail, password)
     }
 

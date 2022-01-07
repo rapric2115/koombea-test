@@ -13,6 +13,7 @@ function App() {
   const [search, setSearch] = useState();
 
   useEffect(() => {
+    // Getting data from firebase database
       onValue(ref(db), snap => {
         const data = snap.val();
         Object.values(data).map((item) => {
@@ -29,13 +30,13 @@ function App() {
       const user = await signInWithEmailAndPassword(
         auth, email, password
         );
-        console.log(user);
         alert('User signed In')
     } catch (err) {
       console.error(err);
     }
   }
 
+  // handle modals function  
   const show = (e, s) => {
       e.preventDefault();
       setShowModal(s)

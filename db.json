@@ -1,0 +1,77 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "admin1234"
+    }
+    ],
+  "post": [
+   {
+     "id": 1, 
+     "title": 'Keeping the dream alive by traveling the world', 
+     "text": 'Integrate the latest technologies with an innovative platform', 
+     "avatar": 'https://uploads-ssl.webflow.com/5c6f0fe289c368004b71d711/5cb7772b6c8746a0839f0ff6_nicole-bg.jpg', 
+     "avatarName": 'Alive cooper', 
+     "date": 'may 02', 
+     "price": 49, 
+     "isFavorite": true, 
+     "bgImage": 'https://digitalmediathoughts.com/wp-content/uploads/2019/02/b1f7b5667a70cdc5667c7980727bd53e-1024x683.jpeg'
+   },
+    {
+      "id": 2, 
+      "title": 'Keeping the dream alive by traveling the world', 
+      "text": 'Integrate the latest technologies with an innovative platform', 
+      "avatar": 'https://uploads-ssl.webflow.com/5c6f0fe289c368004b71d711/5cb7772b6c8746a0839f0ff6_nicole-bg.jpg', 
+      "avatarName": 'Alive cooper', 
+      "date": 'may 02', 
+      "price": 49, 
+      "isFavorite": false, 
+      "bgImage": 'https://www.shillingtoneducation.com/content-blog/uploads/2017/02/Designers-working-behind-a-computer.jpeg'
+    },
+    {
+      "id": 3, 
+      "title": 'Keeping the dream alive by traveling the world', 
+      "text": 'Integrate the latest technologies with an innovative platform', 
+      "avatar": 'https://uploads-ssl.webflow.com/5c6f0fe289c368004b71d711/5cb7772b6c8746a0839f0ff6_nicole-bg.jpg', 
+      "avatarName": 'Alive cooper',
+      "date": 'may 02', 
+      "price": 49, 
+      "isFavorite": true, 
+      "bgImage": 'https://www.kilianjornet.cat/img/blog/355/resized_t5_IMG_2160_258.JPG'
+    },
+    {
+      "id": 4, 
+      "title": 'Keeping the dream alive by traveling the world', 
+      "text": 'Integrate the latest technologies with an innovative platform', 
+      "avatar": 'https://uploads-ssl.webflow.com/5c6f0fe289c368004b71d711/5cb7772b6c8746a0839f0ff6_nicole-bg.jpg', 
+      "avatarName": 'Alive cooper', 
+      "date": 'may 02', 
+      "price": 49, 
+      "isFavorite": false, 
+      "bgImage": 'https://www.kilianjornet.cat/img/blog/355/resized_t5_IMG_2160_258.JPG'
+    },
+    {
+      "id": 5, 
+      "title": 'Keeping the dream alive by traveling the world', 
+      "text": 'Integrate the latest technologies with an innovative platform', 
+      "avatar": 'https://uploads-ssl.webflow.com/5c6f0fe289c368004b71d711/5cb7772b6c8746a0839f0ff6_nicole-bg.jpg', 
+      "avatarName": 'Alive cooper', 
+      "date": 'may 02', 
+      "price": 49, 
+      "isFavorite": true, 
+      "bgImage": 'https://digitalmediathoughts.com/wp-content/uploads/2019/02/b1f7b5667a70cdc5667c7980727bd53e-1024x683.jpeg'
+    },
+    {
+      "id": 6, 
+      "title": 'Keeping the dream alive by traveling the world', 
+      "text": 'Integrate the latest technologies with an innovative platform', 
+      "avatar": 'https://uploads-ssl.webflow.com/5c6f0fe289c368004b71d711/5cb7772b6c8746a0839f0ff6_nicole-bg.jpg', 
+      "avatarName": 'Alive cooper', 
+      "date": 'may 02', 
+      "price": 49, 
+      "isFavorite": false, 
+      "bgImage":  'https://digitalmediathoughts.com/wp-content/uploads/2019/02/b1f7b5667a70cdc5667c7980727bd53e-1024x683.jpeg'
+    },
+  ]
+}

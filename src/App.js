@@ -25,6 +25,7 @@ function App() {
       })
   }, [1000])
 
+  // this function handle user login 
  const handleLogin = async (email, password) => {
     try {
       const user = await signInWithEmailAndPassword(
